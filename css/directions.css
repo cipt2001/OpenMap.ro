@@ -1,0 +1,77 @@
+html, body {height:100%;}
+#pdi {width: 272px; float:left; overflow:auto;margin-top:30px;}
+#cautare {width: 272px; float:left; overflow:auto;margin-top:30px;}
+#directions {width: 272px; float:left; overflow:auto;margin-top:30px;}
+.unvisible {visibility:hidden !important;}
+.hidden {display:none !important;}
+.clear {font-size:0; clear:both;}
+.clear1 {font-size:0; clear:both;}
+
+#close_routing {margin-right:5px; font-size:14px;}
+
+#inputs_list, #directions li {margin:0; padding:0;}
+#inputs_list {margin-top:0px;}
+#inputs_list li {margin-bottom:5px; padding-top:15px; margin-top:-15px; list-style:none; float:left;}
+#inputs_list .label {width:20px; height:34px; padding-top:3px; font-size:14px; float:left; text-transform:uppercase; text-align:center; color:#000; text-decoration:none; font-weight:bold; background:url('/images/directions/marker_label.png') top left no-repeat;}
+#inputs_list input, #inputs_list .waypoint_search_results {width:159px; margin:6px 0 0 5px; padding:1px 2px; float:left; border:1px solid #B3B9C3; line-height:16px;}
+#inputs_list .waypoint_search_results {height:20px; width:165px;}
+
+#inputs_list .set_point {height:20px; margin:6px 0 0 -2px; width:21px; float:left; background:url('/images/directions/add_waypoint_off.png') no-repeat scroll left top; border-left:1px solid #B3B9C3;}
+#inputs_list .set_point_active {background:url('/images/directions/add_waypoint_on.png') no-repeat scroll left top;}
+#inputs_list .replace_points {height:17px; width:16px; margin:-12px 0 0 2px; float:left; background:url('/images/directions/replace_button.png') no-repeat scroll left top;}
+#inputs_list .remove_point {height:12px; width:12px; margin:11px 0 0 0; float:left; background:transparent url('/images/directions/close_button.png') no-repeat scroll left top;}
+#inputs_list .remove_point:hover {background-image:url('/images/directions/close_button_hover.png');}
+#inputs_list .loader {height:20px; margin:8px 0 0 -18px; width:19px; float:left;}
+
+#add_destination, #clear_route {font-size:12px; display:-moz-inline-box; display:inline-block;color:#FF9933;}
+#add_destination {width:100px; margin:6px 40px 0 5px;}
+
+#transport_switcher {list-style:none; margin:0 0 10px; padding:0;}
+#transport_switcher li {margin:0 0 10px; padding:2px 3px 0 0; float:left; width:80px; font-size:12px; text-transform:capitalize;}
+#transport_switcher a {text-decoration:none; white-space:nowrap; padding:2px 0; float:left; width:100%; margin-top:-19px; color:#BB5E00}
+#transport_switcher a span.icon {width:24px; height:24px; margin:-4px 4px 0 3px; padding:0 !important;}
+#transport_switcher span.bg {background:#FFBE7D; height:19px; width:100%; padding:0 !important;}
+#transport_switcher span {padding:0 6px 0 2px; float:left; cursor:pointer;}
+#transport_switcher .active span.bg {background:#FF9933;}
+#transport_switcher .active a {color:#FFF; }
+
+.label {-display:-moz-inline-box; display:inline-block; font-size:12px; font-weight:bold;}
+#preferences {width:178px; text-transform:capitalize;}
+
+#by_car span.icon {background:url('/images/directions/driving.png');}
+#by_walking span.icon {background:url('/images/directions/walking.png');}
+#by_cycling span.icon {background:url('/images/directions/cycling.png');}
+
+.separator {margin-top:10px; font-size:0; border-top:1px solid #000;}
+.separator1 {font-size:0; border-top:1px solid #000;}
+
+#output_panel {margin-top:10px;}
+
+.osm-routes-output {font-size:12px;}
+.osm-routes-output .osm-total-length span {font-weight:bold !important;}
+.osm-routes-output dl {margin:0; padding:0;}
+.osm-routes-output dt {font-size:16px; font-weight:bold; padding:5px 0; vertical-align:middle;}
+.osm-routes-output dt img {margin-right:10px; vertical-align:middle;}
+.osm-routes-output dd {margin-left:0;}
+.osm-routes-output dd a {border-top:1px solid #E5E5E5; color:#000 !important;display:block; padding:3px 0; text-decoration:none; outline:0;}
+.osm-routes-output dd a span {font-weight:bold;}
+.osm-routes-output dd .selected {background-color:#EEE; color:#000 !important;}
+.osm-error-message {color:#900; font-weight:bold;}
+.osm-route-length, .osm-route-duration {color:#999; margin-top:5px; font-size:12px;}
+.osm-route-length span, .osm-total-duration span, .osm-route-duration span {color:#000 !important; font-weight:bold; font-size:12px;}
+a.osm-label-large {height:41px; width:22px; padding-top:5px; padding-left:5px; _padding-top:0; vertical-align:top; margin-right:5px; background:url(/images/directions/marker_label_big.png) no-repeat scroll left top; color:#000 !important; display:-moz-inline-box; display:inline-block; font-size:20px; font-weight:bold; text-transform:uppercase; text-decoration:none; vertical-align:middle;}
+
+#osm-context-menu {position:absolute; background-color:#BBB; z-index:300000;}
+#osm-context-menu ul {margin:-2px 0 0 -2px; padding:0; float:left; width:130px; border:1px solid #999;}
+#osm-context-menu li {list-style:none; margin:0; padding:0; float:left; width:130px;}
+#osm-context-menu a {padding:2px 4px; float:left; width:122px; text-decoration:none; white-space:nowrap; cursor:default; background-color:#FFF; font-size:12px;}
+#osm-context-menu a:hover, #osm-context-menu .hover {background-color:#666; color:#FFF;}
+
+#start_text {font-size:11px; padding:5px 10px 0 0;}
+#start_text span {color:#900; font-weight:bold;}
+
+.loading_indicator {text-align:center; margin:20px;z-index:100000;}
+.loading_indicator p {text-align:center;}
+
+.olFramedCloudPopupContent {padding:10px 5px 0 !important; font-size:12px !important;}
+.olFramedCloudPopupContent span {font-weight:bold !important;}
