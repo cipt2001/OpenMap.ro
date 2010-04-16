@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seedRequest>
+        <name>osm:moto_sport</name>
+        <srs>
+            <number>900913</number>
+        </srs>
+        <zoomStart>7</zoomStart>
+        <zoomStop>12</zoomStop>
+        <format>image/png</format>
+        <!-- type can be
+                * seed (add tiles)
+                * reseed (replace tiles)
+                * truncate (remove tiles)
+               
+                truncate is as of beta0 not implemented!
+        -->
+        <type>reseed</type>
+        <!-- Number of seeding threads to run in parallel -->
+        <threadCount>2</threadCount>
+</seedRequest>
